@@ -1,0 +1,44 @@
+html{
+ font-family: Helvetica, Arial, sans-serif;
+}
+body{
+    width:700px;
+}
+h1{
+    font-size: 200%;
+    color: orange;
+    font-style: italic;
+    text-shadow: 2px 2px black;
+}
+header{
+    text-indent: 1%;
+}
+.line2{
+    font-size: 150%;
+}
+.line3{
+    font-size: 200%;
+}
+.line3:first-letter{
+    font-size: 300%;
+}
+h3{
+    font-size: 150%;
+}
+ul li{
+    padding: 7px 0px;
+}
+a:link{
+    color: orange;
+}
+a:visited {
+    color: orange;
+}
+
+a:hover, a:active {
+    color: green;
+}
+footer {
+    font-size: 90%;
+    text-align: center;
+}
