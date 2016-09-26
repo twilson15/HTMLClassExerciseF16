@@ -30,11 +30,58 @@ header{
   padding-top: 10px;
   border-bottom-width: thin;
 }
-aside{
+
+.HorizontalMenu {
+  background-color: black;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+.HorizontalMenu li {
+    display: inline-block;
+    padding: 10px;
+    
+}
+
+.HorizontalMenu li a:hover:not(.active) {
+  color: gray;
+}
+
+.HorizontalMenu li a:active {
+  color: orange;
+}
+
+.HorizontalMenu li a:visited {
+    color: orange;
+}
+
+.Sidebar{
     float: left;
     width: 160px;
+    line-height: 1.5;
+    list-style-type: none;
+    padding: 0;
+    padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 500px;
+    padding-bottom: 400px;
+}
+
+.Sidebar li {
+    text-align: left;
+}
+
+.Sidebar li a {
+  background-color: orange;
+  border: 3px solid black;
+  display: block;
+  color: black;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  padding: 3px;
+  text-decoration: none;
 }
 
 p{
@@ -61,15 +108,10 @@ ul li{
   padding: 7px 0px; 
 }
 a:link{
-  color: orange;
-}
-a:visited {
-  color: orange;
+  color: white;
 }
 
-a:hover, a:active {
-  color: green;
-}
+
 footer {
   font-size: 90%;
   text-align: center;
