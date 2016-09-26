@@ -45,7 +45,6 @@ header{
 .HorizontalMenu li {
     display: inline-block;
     padding: 10px;
-    color: white;
 }
 
 .HorizontalMenu li a:link{
@@ -56,8 +55,34 @@ header{
     color: white;
 }
 
-.HorizontalMenu li a:hover:not(.active) {
+.HorizontalMenu li a:hover {
   color: gray;
+}
+
+.productList {
+    color: orange;
+}
+
+table {
+  border-spacing: 0;
+  margin-top: 10px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  width: 65%;
+}
+
+th {
+  text-align: left;
+  vertical-align: top;
+}
+
+td:nth-of-type(2), th:nth-of-type(3) {
+  background-color: #F5DEB3;
+  text-align: right;
+}
+
+td a {
+  color: black;
 }
 
 .sidebar{
@@ -99,7 +124,7 @@ footer {
   border-top-style: solid;
   padding-top: 5px;
   padding-bottom: 5px;
-  margin-top: 370px;
+  margin-top: 0px;
   margin-left: 0px;
 
 }
