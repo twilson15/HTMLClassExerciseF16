@@ -93,10 +93,13 @@ header{
 p{
   padding-left: 20px;
   padding-right: 20px;
-  line-break: 0;
-  margin-left: 340px;
+  
   margin-top: 50px;
   font-size: 90%;
+}
+
+.catText {
+    margin-left: 340px;
 }
 
 
@@ -158,6 +161,7 @@ footer {
   padding-top: 5px;
   padding-bottom: 5px;
   margin-top: 370px;
+  margin-left: 0px;
 
 }
 
